@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+    font-family:'poppins',sans-serif;
+}
+body{
+    width: 100%;
+}
+#twitter{
+    font-size:20px;
+    color: orange;
+    border: 1px ;
+}
+#youtube{
+    font-size:20px;
+    color:orange;
+    border: 1px ;
+}
+#instagram{
+    font-size:20px;
+    color:orange;
+    border: 1px ;
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    float: left;
+    padding: 5% 0 5% 3%;
+}
+ 
+
+.info{
+    justify-content: center;
+    box-sizing: border-box;
+    background-size: 100%;
+    height: 700px;
+    display: flex;
+}
+.infotext{
+    border-radius: 2%;
+    border: 60px solid pink;
+    width: 1000px;
+    height:500px;
+    background-repeat: no-repeat;
+    text-align:center;
+    margin-left: 3%;
+    padding-top:6.5%;
+}
+.ul{
+    display: flex;
+    justify-content:space-around;
+    word-spacing: 2%;
+    margin: 5%;
+}
+
+.for{
+    padding: 7%;
+}
+
+h3{
+    font-size:xxx-large;
+    color: orange;
+}
+.butt{
+    justify-content: space-between;
+    padding:1%;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+ button.port{
+    border-radius: 20%;
+    border: 1px solid grey;
+    background-color: pink;
+}
+
+.name{
+    display: flex;
+    text-align: left;
+    margin-left: 5%;
+}
+
+.space{
+    border-radius: 100%;
+    color: yellow;
+}
+
+@media screen and (width < 1120px) { 
+    .infotext{
+        padding: 0 20px;
+    }
+    .ul{
+        padding: 0 20px;
+    }
+    
+ }
+ 
+ @media screen and (width < 600px) {
+     .infotext{
+        width: 100%;
+     }
+     .ul{
+        width: 100%;
+     }
+     .port{
+        width: 30%;
+     }
+ }
